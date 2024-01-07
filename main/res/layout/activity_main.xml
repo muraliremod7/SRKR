@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="30dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:id="@+id/sendSMS"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dail"
+        android:id="@+id/dail"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:id="@+id/sendEmail"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a Notification"
+        android:id="@+id/sendNotification"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:id="@+id/calculator"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sqlite CRUD"
+        android:id="@+id/sqlite"
+        android:background="@color/pink"
+        android:textColor="@color/white"/>
+</LinearLayout>
